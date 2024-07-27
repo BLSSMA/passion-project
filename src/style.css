@@ -9,7 +9,7 @@ body{
     background-color:midnightblue;
 }
 .container{
-    max-width: 75%;
+    max-width: 80%;
     margin:0 auto;
     background-color: white;
 }
@@ -25,19 +25,19 @@ header{
 
 }
 h1{
-    font-size: 96px;
+    font-size: 94px;
     font-weight: 700px;
     line-height: 1;
 }
 h2{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1;
     margin-bottom: 120px;
 }
 h3{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1;
 }
 header a{
@@ -71,7 +71,7 @@ main .grid{
 }
 main h3{
     opacity: 0.5;
-    padding:0;
+    padding:10px 0 0 0;
     margin:0;
 }
 main h2{
@@ -148,7 +148,9 @@ footer a{
     }
     
     main h2 {
-            font-size: 22px;
+            font-size: 32px;
+            padding:0;
+            margin:5px 0;
         }
     
     main p {
