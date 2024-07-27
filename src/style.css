@@ -6,6 +6,12 @@ body{
       text-align: center;
     font-family: "Rubik", sans-serif;
     font-weight: 300;  
+    background-color:midnightblue;
+}
+.container{
+    max-width: 75%;
+    margin:0 auto;
+    background-color: white;
 }
 
 header{
@@ -18,18 +24,18 @@ header{
     text-transform: capitalize;
 
 }
-header h1{
+h1{
     font-size: 96px;
     font-weight: 700px;
     line-height: 1;
 }
-header h2{
+h2{
     font-weight: 400;
     font-size: 40px;
     line-height: 1;
     margin-bottom: 120px;
 }
-header h3{
+h3{
     font-weight: 600;
     font-size: 24px;
     line-height: 1;
@@ -54,12 +60,43 @@ header a:hover{
 }
 .grid{
     display:grid;
-    grid-template-columns: 1fr 2fr 2fr;
     column-gap: 20px;
 }
-section{
+.main-section-text {
+
+    text-align: left;
+}
+main .grid{
+    grid-template-columns: 1fr 1fr;
+}
+main h3{
+    opacity: 0.5;
+    padding:0;
+    margin:0;
+}
+main h2{
+    padding:0;
+    font-size: 44px;
+    margin:10px 0 45px 0;
+}
+main p{
+    padding:0;
+    font-size: 16px;
+}
+main{
+    padding: 20px;
+    margin:50px 150px;
+}
+img{
+    display:flex;
+    max-width: 100%;
+}
+footer section {
     max-width: 80%;
     margin:0 auto;
+}
+footer .grid{
+    grid-template-columns: 1fr 2fr 2fr;
 }
 footer{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/img/MGA_MakeItMiniCafe.jpg);
@@ -67,6 +104,7 @@ footer{
     background-size: cover;
     color:white;
     padding:80px 0;
+    text-align: left;
 }
 footer p{
     font-weight: 400;
@@ -82,7 +120,6 @@ footer li{
     text-decoration: none;
     margin:0;
     padding:0 0 10px 0;
-    text-align: center;
 }
 footer a{
     color:white;
@@ -108,5 +145,24 @@ footer a{
     }
     header{
         padding:60px 0;
+    }
+    
+    main h2 {
+            font-size: 22px;
+        }
+    
+    main p {
+            font-size: 12px;
+        }
+    main .grid{
+            grid-template-columns: 1fr;
+        }
+    main .main-section-text{
+        padding:0;
+        margin:0;
+    }
+    main{
+
+        margin:0;
     }
 }
